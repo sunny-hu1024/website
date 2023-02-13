@@ -1,0 +1,54 @@
+.profile{
+	width: 300px;
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+table {
+
+	position: absolute;
+	top: 10%;
+	left: 500px;
+	
+}
+table caption {
+	padding:10px;
+	font-size:30px;
+}
+table td {
+	padding:5px 0px;
+	color:rgb(58, 8, 8);
+	font-size:18px;
+}
+
+.info-edit-btn{
+
+	padding:5px 15px; 
+	background:rgb(253,103,135); 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 15px;
+	position: relative;
+	left: 10%;
+}
+
+input[type="button"]{
+	
+	padding:5px 15px; 
+	background:rgb(253,103,135); 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 15px;
+}
+
+input[type="submit"]{
+	
+	padding:5px 15px; 
+	background:rgb(253,103,135); 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 15px;
+}

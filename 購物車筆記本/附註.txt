@@ -1,0 +1,1 @@
+ 資料庫下載指令: mysqldump -h localhost -u root -p DB名稱 > member.sql

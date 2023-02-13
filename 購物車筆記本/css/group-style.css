@@ -1,0 +1,40 @@
+.native-bar {
+	margin: auto;
+	max-width: 1024px;
+}
+.native-content {
+	padding-top: 20px;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap:20px 20px;
+}
+.item-info {
+	display: flex;
+	color: #000;
+	text-decoration:none;
+	align-items: center;
+	width: calc((100% - 100px)/3);
+	padding: 15px;
+	background: #ffffff9F;
+	border-radius:30px;
+}
+.item-info .img-content {
+	width: 45%;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+
+}
+.item-info .title {
+	width:50%;
+	text-align: right;
+	font-size:20px;
+}
+.item-info img {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

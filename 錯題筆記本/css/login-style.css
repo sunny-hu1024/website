@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.native-bar {
+	margin: auto;
+	max-width: 1024px;
+}
+.native-content {
+	padding-top: 20px;
+	width:100%;
+	max-width: 1024px;
+	display: flex;
+	flex-wrap: wrap;
+	gap:20px 20px;
+}
+.log-bg {
+	
+	position:relative;
+	top:30%;
+    left:32%;
+	display: flex;
+	color: #000;
+	width: 550px;
+	padding: 15px;
+	background: #ffffff9F;
+	border-radius:30px;
+	
+}
+.log-in{
+	
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+	margin:0 auto;
+}
+
+input[type="text"]{
+	padding:5px 15px; 
+	border-width:10px;
+	border-color:rgb(144,147,129);
+	cursor:pointer; /*改變鼠標*/
+	-webkit-border-radius: 10px;
+	border:15px; 
+}
+
+input[type="password"]{
+	padding:5px 15px; 
+	border-width:10px;
+	border-color:rgb(144,147,129);
+	cursor:pointer; /*改變鼠標*/
+	-webkit-border-radius: 10px;
+	border:15px; 
+}
+
+input[type="submit"]{
+	padding:5px 15px; 
+	background:rgb(253,103,135); 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 15px;
+	position:relative;
+	top:8px;
+ 	left:350px;
+}
+
+
+
+
